@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');  /*font-family: 'Lato', sans-serif;*/
+
+body{
+	margin:0px;
+}
+
+.nav{
+	height: 160px;
+	background-color:#1c3d6c;
+	padding: 25px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.login{
+	height: 600px;
+
+}
+.contacto{
+	height: 475px;
+	background-color:#1c3d6c;
+	padding: 25px;
+	box-sizing: border-box;
+  border-top: 5px solid #c5911f;
+}
+
+.icons{
+	color:white;
+}
