@@ -63,15 +63,50 @@ p{
 .iconMapa{
 	margin-bottom:20px;
 }
+.footer{
+	height: 360px;
+	box-sizing: border-box;
+	background-color: #3b4042;
+	border-bottom: 5px solid #c5911f;
+	padding: 20px;
+}
+
+.footer p{
+	font-size: 14px;
+	font-family: Lato;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+.footer_icon{
+	color: white;
+	width: 42px;
+	height: 42px;
+	font-size: 42px;
+}
+.contenedor_footer_icon{
+	display: flex;
+	margin:20px;
+}
+#icono1{
+	margin-left: auto;
+	margin-right: 10px;
+}
+#icono2{
+	margin-right: auto;
+}
 
 @media (min-width: 768px){
 
 	.contacto{
 		height: 230px;
-		
 		flex-direction: row;
 		justify-content: space-around;
     
+	}
+
+	.footer{
+		height: 200px;
 	}
 
 }
