@@ -13,17 +13,65 @@ body{
 	justify-content: space-between;
 }
 .login{
-	height: 600px;
+	height: 400px;
 
 }
 .contacto{
-	height: 475px;
+	height: 530px;
 	background-color:#1c3d6c;
 	padding: 25px;
 	box-sizing: border-box;
-  border-top: 5px solid #c5911f;
+	border-top: 5px solid #c5911f;
+	color: white;
+	display: flex;
+	flex-direction: column;	
+}
+.contact{
+	margin-bottom: 20px;
+}
+a{
+	color:white;
 }
 
 .icons{
 	color:white;
+}
+
+.btn{
+	background-color:#1c3d6c;
+}
+
+#login-page{
+	width: 300px;
+    top: 40px;
+    position: relative;
+}
+
+.inline{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	
+}
+.besideIcon{
+	margin: 0px;
+	margin-left: 10px;
+}
+p{
+	margin: 0px;
+}
+.iconMapa{
+	margin-bottom:20px;
+}
+
+@media (min-width: 768px){
+
+	.contacto{
+		height: 230px;
+		
+		flex-direction: row;
+		justify-content: space-around;
+    
+	}
+
 }

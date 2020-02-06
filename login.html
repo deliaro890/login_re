@@ -3,8 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
 	<title>Login Rev_estudios</title>
 </head>
 <body>
@@ -13,23 +19,93 @@
 		<img src="img/unam.svg">
 		<img src="img/dgae.svg">
 	</section>
-	<section class="login"></section>
+
+
+	<section class="login">
+
+			<div id="login-page" class="row">
+				<div class="col s12 z-depth-6 card-panel">
+				  <form class="login-form">
+					<div class="row">
+					</div>
+					<div class="row">
+					  <div class="input-field col s12">
+						<i class="material-icons prefix">person_outline</i>
+						<input class="validate" id="email" type="email">
+						<label for="email" data-error="wrong" data-success="right">Usuario</label>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="input-field col s12">
+						<i class="material-icons prefix">lock_outline</i>
+						<input id="password" type="password">
+						<label for="password">Contraseña</label>
+					  </div>
+					</div>
+					
+					<div class="row">
+					  <div class="input-field col s12">
+						<a href="#" class="btn waves-effect waves-light col s12">Login</a>
+					  </div>
+					</div>
+					
+			
+				  </form>
+				</div>
+			  </div> 
+			
+	</section>
 	<section class="contacto">
 		<div class="contact">
-			<h4>Contacto</h4>
-			<i class="fa fa-phone icons"></i> <p>Atención por Teléfono</p>
+			<p>Contacto</p>
+			<div class="inline">
+				<i class="fa fa-phone icons"></i>
+				<p class='besideIcon'>Atención por Teléfono</p>
+			</div>
+			
+			<a href="tel:56221524">5622 - 1524</a><br>
+			<a href="tel:56221525">5622 - 1525</a><br>
+			<div class="inline">
+				<i class="fa fa-clock-o"></i>
+				<p class='besideIcon'>De 9:00 a 14:30 hrs.</p>
+			</div>
+			<p>y de 17:00 a 19:30 hrs.</p>
+			
+			
 		</div>
 		<div class="info">
+
+			<p>Se brinda información de:</p>
+			<ul>
+				<li>Convocatoria para los concursos de selección</li>
+				<li>Examen COMIPEMS</li>
+				<li>Ingreso a Licenciatura por Pase Reglamentado</li>
+				<li>Informes sobre los Resultados de los concursos de selección</li>
+				<li>Venta de Guías y Planes de Estudio</li>
+			</ul>
 			
 		</div>
 		<div class="mapa">
+			<div class="iconMapa">
+				<i class="fa fa-sitemap"></i>
+				<a href="https://www.dgae.unam.mx/mapasitio.html">Mapa de sitio</a>
+			</div>
 			
+			<div class="iconMapa">
+				<i class="fa fa-assistive-listening-systems"></i>
+				<a href="https://www.dgae.unam.mx/herramientas.html">Herramientas de Accesibilidad</a>
+			</div>
+			
+			<div class="iconMapa">
+				<i class="fa fa-user-secret"></i>
+				<a href="https://www.dgae.unam.mx/aviso_privacidad.html">Aviso de Privacidad</a>
+			</div>
 		</div>
 		
 	</section>
 	<section class="footer"></section>
 
-
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script src="js/funciones.js"></script>
 
 </body>
